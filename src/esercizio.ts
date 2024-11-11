@@ -30,6 +30,6 @@ export default () => {
     } catch (errore) {
         console.error('Errore nella lettura della directory:', errore);
     };
-};
+}; 
 
                        
