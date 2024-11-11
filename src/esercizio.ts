@@ -1,7 +1,7 @@
 import fs from "node:fs"; //gestione di files e cartelle
 import path from "node:path"; //percorsi
 import { DateTime } from "luxon"; //gestione date
-import chalk from "chalk"; //gestione colore
+import chalk from "chalk"; //gestione colori
 
 export default () => {
 
@@ -30,6 +30,6 @@ export default () => {
     } catch (errore) {
         console.error('Errore nella lettura della directory:', errore);
     };
-}; 
+};
 
                        
